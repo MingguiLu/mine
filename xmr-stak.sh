@@ -16,7 +16,7 @@ echo "deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-backports main res
 echo "deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-backports main restricted universe multiverse" >> /etc/apt/sources.list
 echo "deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-security main restricted universe multiverse" >> /etc/apt/sources.list
 echo "deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ bionic-security main restricted universe multiverse" >> /etc/apt/sources.list
-apt upate
+apt update
 
 #系统调优参数
 sysctl -w vm.nr_hugepages=128
