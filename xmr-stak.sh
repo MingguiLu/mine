@@ -26,7 +26,6 @@ echo '* hard memlock 262144' >> /etc/security/limits.conf
 sysctl -p
 
 #安装必需软件
-apt update
 apt install git libmicrohttpd-dev libssl-dev cmake build-essential libhwloc-dev -y
 
 #下载编译xmr-stak
